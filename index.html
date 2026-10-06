@@ -1,0 +1,584 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Village Portal | डिजिटल ग्राम पोर्टल</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER / शीर्ष भाग -->
+    <header>
+        <a class="logo" href="#home">
+            🌾 Digital Village
+            <span lang="hi">डिजिटल ग्राम</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home <span lang="hi">होम</span></a>
+            <a href="#services">Services <span lang="hi">सेवाएँ</span></a>
+            <a href="#schemes">Schemes <span lang="hi">योजनाएँ</span></a>
+            <a href="#directory">Directory <span lang="hi">निर्देशिका</span></a>
+            <a href="#events">Events <span lang="hi">कार्यक्रम</span></a>
+            <a href="#emergency">Emergency <span lang="hi">आपातकाल</span></a>
+        </nav>
+    </header>
+
+
+    <!-- HOME / मुख्य पृष्ठ -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    YOUR VILLAGE, ONE DIGITAL PLATFORM
+                    <span lang="hi">आपका गाँव, एक डिजिटल मंच</span>
+                </p>
+
+                <h1>
+                    A Smarter Village Starts Here
+                    <span lang="hi">एक बेहतर गाँव की शुरुआत यहाँ से</span>
+                </h1>
+
+                <p>
+                    Find useful information about public services,
+                    government schemes, education, healthcare and
+                    community activities.
+                </p>
+
+                <p class="hindi" lang="hi">
+                    सरकारी योजनाओं, शिक्षा, स्वास्थ्य सेवाओं,
+                    सार्वजनिक सुविधाओं और सामुदायिक गतिविधियों
+                    की उपयोगी जानकारी एक ही जगह पाएँ।
+                </p>
+
+                <a class="button" href="#services">
+                    Explore Services | सेवाएँ देखें
+                </a>
+            </div>
+
+            <div class="hero-art" aria-hidden="true">
+                <div class="sun"></div>
+                <div class="hill hill-one"></div>
+                <div class="hill hill-two"></div>
+                <div class="village-house">🏡</div>
+                <div class="village-tree">🌳</div>
+            </div>
+        </section>
+
+
+        <!-- QUICK STATS / मुख्य सुविधाएँ -->
+        <section class="stats" aria-label="Portal highlights">
+            <div>
+                <strong>24/7</strong>
+                <span>Information Access</span>
+                <span lang="hi">जानकारी तक पहुँच</span>
+            </div>
+
+            <div>
+                <strong>06+</strong>
+                <span>Service Categories</span>
+                <span lang="hi">सेवाओं की श्रेणियाँ</span>
+            </div>
+
+            <div>
+                <strong>01</strong>
+                <span>Digital Platform</span>
+                <span lang="hi">एक डिजिटल मंच</span>
+            </div>
+
+            <div>
+                <strong>🌱</strong>
+                <span>Community First</span>
+                <span lang="hi">समुदाय सर्वोपरि</span>
+            </div>
+        </section>
+
+
+        <!-- SERVICES / सेवाएँ -->
+        <section class="section" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">EVERYDAY ESSENTIALS</p>
+                <h2>Village Services <span lang="hi">ग्राम सेवाएँ</span></h2>
+                <p>Important information for every resident.</p>
+                <p class="hindi" lang="hi">
+                    गाँव के प्रत्येक निवासी के लिए उपयोगी जानकारी।
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-icon">🏥</div>
+                    <h3>Healthcare <span lang="hi">स्वास्थ्य सेवा</span></h3>
+                    <p>Learn about health centres, medical services and health camps.</p>
+                    <p class="hindi" lang="hi">
+                        स्वास्थ्य केंद्रों, चिकित्सा सेवाओं और स्वास्थ्य शिविरों की जानकारी पाएँ।
+                    </p>
+                    <button class="secondary-button"
+                        data-info="healthcare">Learn More | अधिक जानें</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🎓</div>
+                    <h3>Education <span lang="hi">शिक्षा</span></h3>
+                    <p>Explore schools, scholarships and learning opportunities.</p>
+                    <p class="hindi" lang="hi">
+                        स्कूलों, छात्रवृत्तियों और शिक्षा के अवसरों की जानकारी पाएँ।
+                    </p>
+                    <button class="secondary-button"
+                        data-info="education">Learn More | अधिक जानें</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🌾</div>
+                    <h3>Agriculture <span lang="hi">कृषि</span></h3>
+                    <p>Find farming resources and farmer welfare information.</p>
+                    <p class="hindi" lang="hi">
+                        खेती, कृषि संसाधनों और किसान कल्याण योजनाओं की जानकारी पाएँ।
+                    </p>
+                    <button class="secondary-button"
+                        data-info="agriculture">Learn More | अधिक जानें</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">💧</div>
+                    <h3>Water & Sanitation <span lang="hi">जल एवं स्वच्छता</span></h3>
+                    <p>Learn about drinking water and sanitation services.</p>
+                    <p class="hindi" lang="hi">
+                        पेयजल और स्वच्छता सेवाओं के बारे में जानें।
+                    </p>
+                    <button class="secondary-button"
+                        data-info="water">Learn More | अधिक जानें</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🏛️</div>
+                    <h3>Public Services <span lang="hi">सार्वजनिक सेवाएँ</span></h3>
+                    <p>Find information about local administration and citizen services.</p>
+                    <p class="hindi" lang="hi">
+                        स्थानीय प्रशासन और नागरिक सेवाओं की जानकारी पाएँ।
+                    </p>
+                    <button class="secondary-button"
+                        data-info="public">Learn More | अधिक जानें</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🛒</div>
+                    <h3>Local Businesses <span lang="hi">स्थानीय व्यवसाय</span></h3>
+                    <p>Discover shops, markets and services in the community.</p>
+                    <p class="hindi" lang="hi">
+                        गाँव की दुकानों, बाज़ारों और स्थानीय सेवाओं के बारे में जानें।
+                    </p>
+                    <button class="secondary-button"
+                        data-info="business">Learn More | अधिक जानें</button>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- GOVERNMENT SCHEMES / सरकारी योजनाएँ -->
+        <section class="section alternate" id="schemes">
+            <div class="section-heading">
+                <p class="eyebrow">PUBLIC WELFARE</p>
+                <h2>Government Schemes <span lang="hi">सरकारी योजनाएँ</span></h2>
+                <p>Discover programmes and check official eligibility rules.</p>
+                <p class="hindi" lang="hi">
+                    सरकारी योजनाओं की जानकारी पाएँ और पात्रता के नियम आधिकारिक स्रोतों से जाँचें।
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card scheme-card">
+                    <div class="card-icon">🌾</div>
+                    <h3>PM-KISAN</h3>
+                    <p>Income support for eligible landholding farmer families.</p>
+                    <p class="hindi" lang="hi">
+                        पात्र भूमिधारक किसान परिवारों के लिए आय सहायता योजना।
+                    </p>
+                    <button class="primary-button"
+                        data-scheme="pmkisan">View Details | विवरण देखें</button>
+                </article>
+
+                <article class="card scheme-card">
+                    <div class="card-icon">🏠</div>
+                    <h3>PMAY-G</h3>
+                    <p>Rural housing assistance for eligible households.</p>
+                    <p class="hindi" lang="hi">
+                        पात्र ग्रामीण परिवारों के लिए आवास सहायता कार्यक्रम।
+                    </p>
+                    <button class="primary-button"
+                        data-scheme="pmay">View Details | विवरण देखें</button>
+                </article>
+
+                <article class="card scheme-card">
+                    <div class="card-icon">💧</div>
+                    <h3>Jal Jeevan Mission</h3>
+                    <p>Improving access to safe drinking water in rural areas.</p>
+                    <p class="hindi" lang="hi">
+                        ग्रामीण क्षेत्रों में सुरक्षित पेयजल की पहुँच बेहतर बनाने की पहल।
+                    </p>
+                    <button class="primary-button"
+                        data-scheme="jaljeevan">View Details | विवरण देखें</button>
+                </article>
+
+                <article class="card scheme-card">
+                    <div class="card-icon">📚</div>
+                    <h3>National Scholarship Portal</h3>
+                    <p>Find scholarship information for eligible students.</p>
+                    <p class="hindi" lang="hi">
+                        पात्र विद्यार्थियों के लिए छात्रवृत्ति संबंधी जानकारी पाएँ।
+                    </p>
+                    <button class="primary-button"
+                        data-scheme="scholarship">View Details | विवरण देखें</button>
+                </article>
+            </div>
+
+            <p class="notice">
+                Information is introductory. Confirm current eligibility,
+                benefits and application dates on official websites.
+            </p>
+            <p class="hindi notice" lang="hi">
+                यह प्रारंभिक जानकारी है। पात्रता, लाभ और आवेदन की तारीखें
+                संबंधित आधिकारिक वेबसाइट पर सत्यापित करें।
+            </p>
+        </section>
+
+
+        <!-- DIRECTORY / ग्राम निर्देशिका -->
+        <section class="section" id="directory">
+            <div class="section-heading">
+                <p class="eyebrow">FIND YOUR LOCAL SERVICES</p>
+                <h2>Village Directory <span lang="hi">ग्राम निर्देशिका</span></h2>
+                <p>Explore common village facilities and local services.</p>
+                <p class="hindi" lang="hi">
+                    गाँव की प्रमुख सुविधाओं और स्थानीय सेवाओं की जानकारी पाएँ।
+                </p>
+            </div>
+
+            <div class="directory-list">
+                <article class="directory-item">
+                    <span class="directory-icon">🏥</span>
+                    <div>
+                        <h3>Primary Health Centre</h3>
+                        <p class="hindi" lang="hi">प्राथमिक स्वास्थ्य केंद्र</p>
+                        <p>Basic healthcare information | बुनियादी स्वास्थ्य जानकारी</p>
+                    </div>
+                    <button class="secondary-button"
+                        data-info="healthcare">Details | विवरण</button>
+                </article>
+
+                <article class="directory-item">
+                    <span class="directory-icon">🏫</span>
+                    <div>
+                        <h3>Government School</h3>
+                        <p class="hindi" lang="hi">सरकारी विद्यालय</p>
+                        <p>Education services | शिक्षा सेवाएँ</p>
+                    </div>
+                    <button class="secondary-button"
+                        data-info="education">Details | विवरण</button>
+                </article>
+
+                <article class="directory-item">
+                    <span class="directory-icon">🏛️</span>
+                    <div>
+                        <h3>Gram Panchayat</h3>
+                        <p class="hindi" lang="hi">ग्राम पंचायत</p>
+                        <p>Local administration | स्थानीय प्रशासन</p>
+                    </div>
+                    <button class="secondary-button"
+                        data-info="public">Details | विवरण</button>
+                </article>
+
+                <article class="directory-item">
+                    <span class="directory-icon">🛍️</span>
+                    <div>
+                        <h3>Local Market</h3>
+                        <p class="hindi" lang="hi">स्थानीय बाज़ार</p>
+                        <p>Local shops and services | स्थानीय दुकानें और सेवाएँ</p>
+                    </div>
+                    <button class="secondary-button"
+                        data-info="business">Details | विवरण</button>
+                </article>
+            </div>
+
+            <p class="notice">
+                Sample directory only. Add verified local names, addresses,
+                opening hours and phone numbers before publishing.
+            </p>
+            <p class="hindi notice" lang="hi">
+                यह नमूना निर्देशिका है। प्रकाशित करने से पहले स्थानीय नाम,
+                पते, खुलने का समय और फोन नंबर सत्यापित करके जोड़ें।
+            </p>
+        </section>
+
+
+        <!-- VILLAGE MAP / गाँव का नक्शा -->
+        <section class="section alternate" id="map">
+            <div class="section-heading">
+                <p class="eyebrow">EXPLORE YOUR COMMUNITY</p>
+                <h2>Village Map <span lang="hi">गाँव का नक्शा</span></h2>
+                <p>Select a marker to read about a facility.</p>
+                <p class="hindi" lang="hi">
+                    किसी स्थान के बारे में जानकारी पाने के लिए उसके चिह्न पर क्लिक करें।
+                </p>
+            </div>
+
+            <div class="map-layout">
+                <div class="village-map" aria-label="Illustrative village map">
+                    <div class="map-road road-one"></div>
+                    <div class="map-road road-two"></div>
+                    <div class="map-green green-one"></div>
+                    <div class="map-green green-two"></div>
+
+                    <button class="map-marker marker-school"
+                        data-info="education" aria-label="School information">🏫</button>
+
+                    <button class="map-marker marker-hospital"
+                        data-info="healthcare" aria-label="Health centre information">🏥</button>
+
+                    <button class="map-marker marker-panchayat"
+                        data-info="public" aria-label="Panchayat information">🏛️</button>
+
+                    <button class="map-marker marker-market"
+                        data-info="business" aria-label="Market information">🛒</button>
+
+                    <span class="map-label label-school">School | विद्यालय</span>
+                    <span class="map-label label-hospital">Health | स्वास्थ्य</span>
+                    <span class="map-label label-panchayat">Panchayat | पंचायत</span>
+                    <span class="map-label label-market">Market | बाज़ार</span>
+                </div>
+
+                <div class="map-info">
+                    <h3>How to use the map</h3>
+                    <p>Choose any marker on the illustrated map.</p>
+                    <h3 lang="hi">नक्शे का उपयोग कैसे करें</h3>
+                    <p class="hindi" lang="hi">
+                        नक्शे पर किसी भी चिह्न को चुनकर संबंधित जानकारी देखें।
+                    </p>
+                    <p class="notice">
+                        This is an illustrative map, not a real geographic map.
+                    </p>
+                    <p class="hindi notice" lang="hi">
+                        यह केवल उदाहरण के लिए बनाया गया नक्शा है, वास्तविक भौगोलिक नक्शा नहीं।
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TOURISM / पर्यटन -->
+        <section class="section">
+            <div class="section-heading">
+                <p class="eyebrow">CULTURE AND COMMUNITY</p>
+                <h2>Explore the Village <span lang="hi">गाँव को जानें</span></h2>
+                <p>Celebrate local nature, culture and food.</p>
+                <p class="hindi" lang="hi">
+                    स्थानीय प्रकृति, संस्कृति और खान-पान की विशेषताओं को जानें।
+                </p>
+            </div>
+
+            <div class="card-grid three-columns">
+                <article class="card tourism-card">
+                    <div class="tourism-art">🌳</div>
+                    <h3>Nature <span lang="hi">प्रकृति</span></h3>
+                    <p>Discover local greenery and natural surroundings.</p>
+                    <p class="hindi" lang="hi">
+                        स्थानीय हरियाली और प्राकृतिक वातावरण को जानें।
+                    </p>
+                </article>
+
+                <article class="card tourism-card">
+                    <div class="tourism-art">🎭</div>
+                    <h3>Local Culture <span lang="hi">स्थानीय संस्कृति</span></h3>
+                    <p>Learn about traditions, festivals and crafts.</p>
+                    <p class="hindi" lang="hi">
+                        स्थानीय परंपराओं, त्योहारों और हस्तकलाओं के बारे में जानें।
+                    </p>
+                </article>
+
+                <article class="card tourism-card">
+                    <div class="tourism-art">🍲</div>
+                    <h3>Local Food <span lang="hi">स्थानीय व्यंजन</span></h3>
+                    <p>Explore traditional food and local food businesses.</p>
+                    <p class="hindi" lang="hi">
+                        पारंपरिक व्यंजनों और स्थानीय खाद्य व्यवसायों को जानें।
+                    </p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- EVENTS / कार्यक्रम -->
+        <section class="section alternate" id="events">
+            <div class="section-heading">
+                <p class="eyebrow">COMING TOGETHER</p>
+                <h2>Community Events <span lang="hi">सामुदायिक कार्यक्रम</span></h2>
+                <p>Sample events to demonstrate a community calendar.</p>
+                <p class="hindi" lang="hi">
+                    सामुदायिक कैलेंडर का उदाहरण दिखाने के लिए नमूना कार्यक्रम।
+                </p>
+            </div>
+
+            <div class="event-list">
+                <article class="event-item">
+                    <div class="event-icon">🧹</div>
+                    <div>
+                        <h3>Village Cleanliness Drive</h3>
+                        <p class="hindi" lang="hi">गाँव की स्वच्छता अभियान</p>
+                        <p>Sample date: 15 November 2026</p>
+                        <p class="hindi" lang="hi">नमूना तारीख: 15 नवंबर 2026</p>
+                    </div>
+                </article>
+
+                <article class="event-item">
+                    <div class="event-icon">🩺</div>
+                    <div>
+                        <h3>Health Awareness Camp</h3>
+                        <p class="hindi" lang="hi">स्वास्थ्य जागरूकता शिविर</p>
+                        <p>Sample date: 20 November 2026</p>
+                        <p class="hindi" lang="hi">नमूना तारीख: 20 नवंबर 2026</p>
+                    </div>
+                </article>
+
+                <article class="event-item">
+                    <div class="event-icon">🏏</div>
+                    <div>
+                        <h3>Community Sports Day</h3>
+                        <p class="hindi" lang="hi">सामुदायिक खेल दिवस</p>
+                        <p>Sample date: 5 December 2026</p>
+                        <p class="hindi" lang="hi">नमूना तारीख: 5 दिसंबर 2026</p>
+                    </div>
+                </article>
+            </div>
+
+            <p class="notice">
+                These dates are examples, not confirmed village events.
+            </p>
+            <p class="hindi notice" lang="hi">
+                ये तारीखें केवल उदाहरण हैं, गाँव के सत्यापित कार्यक्रम नहीं।
+            </p>
+        </section>
+
+
+        <!-- EMERGENCY / आपातकालीन जानकारी -->
+        <section class="section emergency-section" id="emergency">
+            <div class="section-heading">
+                <p class="eyebrow">HELP WHEN IT MATTERS</p>
+                <h2>Emergency Help <span lang="hi">आपातकालीन सहायता</span></h2>
+                <p>For an emergency in India, call 112.</p>
+                <p class="hindi" lang="hi">
+                    भारत में आपातकालीन सहायता के लिए 112 पर कॉल करें।
+                </p>
+            </div>
+
+            <div class="emergency-card">
+                <div class="card-icon">🚨</div>
+                <h3>Emergency Helpline | आपातकालीन हेल्पलाइन</h3>
+                <p>India's emergency response number.</p>
+                <p class="hindi" lang="hi">
+                    भारत का आपातकालीन सहायता नंबर।
+                </p>
+                <a class="emergency-number" href="tel:112">112</a>
+                <p class="notice">
+                    Use this number for genuine emergencies.
+                </p>
+                <p class="hindi notice" lang="hi">
+                    इस नंबर का उपयोग वास्तविक आपातकाल में करें।
+                </p>
+            </div>
+
+            <p class="notice">
+                Add verified local hospital and police contact details before publishing.
+            </p>
+            <p class="hindi notice" lang="hi">
+                प्रकाशित करने से पहले स्थानीय अस्पताल और पुलिस के सत्यापित संपर्क विवरण जोड़ें।
+            </p>
+        </section>
+
+
+        <!-- FEEDBACK / सुझाव -->
+        <section class="section" id="feedback">
+            <div class="section-heading">
+                <p class="eyebrow">YOUR VOICE MATTERS</p>
+                <h2>Community Feedback <span lang="hi">नागरिक सुझाव</span></h2>
+                <p>Share an idea to help improve the portal.</p>
+                <p class="hindi" lang="hi">
+                    पोर्टल को बेहतर बनाने के लिए अपना सुझाव साझा करें।
+                </p>
+            </div>
+
+            <form class="feedback-form" id="feedbackForm">
+                <label for="feedbackName">
+                    Your name | आपका नाम
+                </label>
+                <input type="text" id="feedbackName"
+                    placeholder="Enter your name | अपना नाम लिखें" required>
+
+                <label for="feedbackText">
+                    Your feedback | आपका सुझाव
+                </label>
+                <textarea id="feedbackText" rows="5"
+                    placeholder="Write your suggestion | अपना सुझाव लिखें"
+                    required></textarea>
+
+                <button class="primary-button" type="submit">
+                    Submit Feedback | सुझाव भेजें
+                </button>
+
+                <p id="feedbackMessage" role="status" aria-live="polite"></p>
+                <p class="hindi" lang="hi">
+                    नोट: इस डेमो में सुझाव केवल स्क्रीन पर दिखाया जाता है, सर्वर पर सेव नहीं होता।
+                </p>
+            </form>
+        </section>
+    </main>
+
+
+    <!-- POPUP / जानकारी विंडो -->
+    <div class="popup" id="infoPopup"
+        role="dialog" aria-modal="true"
+        aria-labelledby="popupTitle" aria-hidden="true">
+
+        <div class="popup-content">
+            <button class="close-button" id="closePopup"
+                aria-label="Close popup">×</button>
+
+            <h2 id="popupTitle">Information</h2>
+            <p class="hindi popup-hindi" id="popupTitleHindi" lang="hi"></p>
+
+            <p id="popupDescription"></p>
+            <p class="hindi" id="popupDescriptionHindi" lang="hi"></p>
+
+            <div class="popup-info">
+                <h3>Useful Details</h3>
+                <p class="hindi" lang="hi">उपयोगी जानकारी</p>
+                <p id="popupExtra"></p>
+                <p class="hindi" id="popupExtraHindi" lang="hi"></p>
+            </div>
+
+            <a id="officialLink" class="button official-link"
+                href="#" target="_blank" rel="noopener noreferrer">
+                Official Website | आधिकारिक वेबसाइट
+            </a>
+        </div>
+    </div>
+
+
+    <!-- FOOTER / अंतिम भाग -->
+    <footer>
+        <h2>🌾 Digital Village Portal</h2>
+        <p>Connecting people with essential information.</p>
+        <p class="hindi" lang="hi">
+            लोगों को आवश्यक जानकारी से जोड़ने वाला डिजिटल मंच।
+        </p>
+        <p class="copyright">Student Competition Project | विद्यार्थी प्रतियोगिता परियोजना · 2026</p>
+    </footer>
+
+</body>
+</html>
